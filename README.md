@@ -4,11 +4,11 @@
 ABM en Java para agencia de turismo
 
 Java ABM Turismo Web
-- [ ] Instalar una OpenJDK (8, 11, 17) LTS
-- [ ] Instalar Eclipse IDE (intellij)
-- [ ] Crear un repositorio en github/gitlab
-- [ ] Probar conectarse a SQL Server (JDBC + SQL Server driver) desde un main (select * )
-- [ ] Agregar Maven
+- [x] Instalar una OpenJDK (8, 11, 17) LTS
+- [x] Instalar Eclipse IDE (intellij)
+- [x] Crear un repositorio en github/gitlab
+- [x] Probar conectarse a SQL Server (JDBC + SQL Server driver) desde un main (select * )
+- [x] Agregar Maven
 - [ ] Configurar Spring Boot
 - [ ] Crear un endpoint (GET /test) -> OK
 - [ ] Crear un endpoint que devuelva los destinos (GET /destinos)
