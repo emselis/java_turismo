@@ -7,13 +7,13 @@ import java.sql.Connection;
 public class JavaConnectSQL {
 
 	public static void main(String[] args) {
-		String url = "jdbc:sqlserver://EMS-NQN\\SQLEXPRESS;databaseName=java_practica;integratedSecurity=true";
-		// String user = "ezems";
-		// String password = "e5eli5";
+		String url = "jdbc:sqlserver://ems-nqn\\sqlexpress;databaseName=java_practica;trustServerCertificate=true"; // integratedSecurity=true;hostNameInCertificate=null";
+		String user = "valen";
+		String password = "tino17";
 		
 		try {
 			
-			Connection cn = DriverManager.getConnection(url);
+			Connection cn = DriverManager.getConnection(url, user, password);
 			// Otra: DriverManager.getConnection(url, user, password)
 
 			System.out.println("Correcta conexion con el Servidor SQL.");
