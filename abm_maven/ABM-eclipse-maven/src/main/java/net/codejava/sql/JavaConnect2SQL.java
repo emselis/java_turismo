@@ -14,8 +14,7 @@ public class JavaConnect2SQL {
 		try {
 			
 			Connection cn = DriverManager.getConnection(url, user, password);
-			// Otra: DriverManager.getConnection(url, user, password)
-
+			
 			System.out.println("Correcta conexion con el Servidor SQL.");
 			
 		} catch (SQLException e) {
