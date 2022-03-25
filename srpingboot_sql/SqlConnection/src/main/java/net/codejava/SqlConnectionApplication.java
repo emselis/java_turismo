@@ -19,7 +19,7 @@ public class SqlConnectionApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		String sql = "INSERT INTO Personas (id, nombre, apellido, edad, direccion) VALUES (?, ?, ?, ?, ?)";
-		int result = jdbcTemplate.update(sql, 3, "Eze", "Martin", 40, "Neuquen 123");
+		int result = jdbcTemplate.update(sql, 4, "Ceci", "Sole", 35, "Neuquen 123");
 		
 		if (result > 0) {
 			System.out.println("Una nueva linea se agrego correctamente.");
